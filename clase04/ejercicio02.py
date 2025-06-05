@@ -35,6 +35,7 @@ seleccionadas = []
 i = 0
 while True:
     if i >= len(comidas):
+        print("Terminó la iteración.")
         break
     comida = comidas[i]
     respuesta = input(f"¿Es {comida} la comida que estás buscando? (si/no): ").strip().lower()
@@ -49,7 +50,6 @@ while True:
     else:
         print("Respuesta no válida. Por favor, responde 'si' o 'no'.")
 
-
-
 print("Lista de comidas seleccionadas:", seleccionadas)
+
 
