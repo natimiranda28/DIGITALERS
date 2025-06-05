@@ -34,7 +34,7 @@ comidas = [
 seleccionadas = []
 i = 0
 while True:
-    if i >= len(comidas):
+    if i <= len(comidas):
         print("Terminó la iteración.")
         break
     comida = comidas[i]
